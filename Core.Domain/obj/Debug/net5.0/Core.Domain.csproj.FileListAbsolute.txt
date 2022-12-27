@@ -1,0 +1,12 @@
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\bin\Debug\net5.0\Core.Domain.deps.json
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\bin\Debug\net5.0\Core.Domain.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\bin\Debug\net5.0\ref\Core.Domain.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\bin\Debug\net5.0\Core.Domain.pdb
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.csproj.AssemblyReference.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.AssemblyInfoInputs.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.AssemblyInfo.cs
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.csproj.CoreCompileInputs.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\ref\Core.Domain.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Core.Domain\obj\Debug\net5.0\Core.Domain.pdb

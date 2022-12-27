@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package twitter.send_email;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "Web.EmailSender.Grpc.Protos.SendEmail";
+
+// The Send Email service definition.
+service EmailSender {
+  rpc SendEmail (EmailMessageRequest) returns (Empty);
+}
+
+
+message Empty{}
+
+
+message EmailMessageRequest{
+  repeated google.protobuf.StringValue to = 1;
+  google.protobuf.StringValue subject = 2;
+  google.protobuf.StringValue content = 3;
+
+}

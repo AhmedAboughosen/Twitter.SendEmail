@@ -1,0 +1,15 @@
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\Infrastructure.Services.deps.json
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\Infrastructure.Services.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\ref\Infrastructure.Services.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\Infrastructure.Services.pdb
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\Core.Domain.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\bin\Debug\net5.0\Core.Domain.pdb
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.csproj.AssemblyReference.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.AssemblyInfoInputs.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.AssemblyInfo.cs
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.csproj.CoreCompileInputs.cache
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.csproj.CopyComplete
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\ref\Infrastructure.Services.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Infrastructure.Services\obj\Debug\net5.0\Infrastructure.Services.pdb

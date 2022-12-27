@@ -1,0 +1,4 @@
+obj\Debug\net5.0\Protos/SendEmail.cs \
+obj\Debug\net5.0\Protos/SendEmailGrpc.cs: C:/Users/a.hassan/.nuget/packages/grpc.tools/2.34.0/build/native/include/google/protobuf/wrappers.proto\
+ C:/Users/a.hassan/.nuget/packages/grpc.tools/2.34.0/build/native/include/google/protobuf/empty.proto\
+ Protos/send_email.proto
