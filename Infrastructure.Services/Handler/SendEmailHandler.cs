@@ -1,28 +1,36 @@
 ﻿using System;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
+
 using Core.Domain.Exceptions;
+using Infrastructure.Services.EmailConfig;
 using MailKit.Net.Smtp;
+using MediatR;
 using MimeKit;
 
-namespace Infrastructure.Services.EmailSender
+namespace Infrastructure.Services.Handler
 {
-    public class EmailSender : IEmailSender
+    public class SendEmailHandler : IRequestHandler<Message, bool>
     {
         private readonly EmailConfiguration _emailConfig;
 
-        public EmailSender(EmailConfiguration emailConfig)
+        public SendEmailHandler(EmailConfiguration emailConfig)
         {
             _emailConfig = emailConfig;
         }
 
-        public async Task SendEmailAsync(Message message)
+
+        public async Task<bool> Handle(Message message,
+            CancellationToken cancellationToken)
         {
             var emailMessage = CreateEmailMessage(message);
 
             await SendAsync(emailMessage);
+            return true;
         }
-
+        
+  
         private MimeMessage CreateEmailMessage(Message message)
         {
             var emailMessage = new MimeMessage();

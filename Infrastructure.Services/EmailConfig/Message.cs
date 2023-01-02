@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using MediatR;
 using MimeKit;
 
-namespace Infrastructure.Services.EmailSender
+namespace Infrastructure.Services.EmailConfig
 {
-    public class Message
+    public class Message : IRequest<bool>
     {
         public List<MailboxAddress> To { get; set; }
         public string Subject { get; set; }

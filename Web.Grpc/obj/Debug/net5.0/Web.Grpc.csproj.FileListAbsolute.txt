@@ -37,3 +37,5 @@ D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\Co
 D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\Infrastructure.Services.dll
 D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\Infrastructure.Services.pdb
 D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\Core.Domain.pdb
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\MediatR.dll
+D:\codes\Personal_Project\twitter\Twitter.SendEmail\Web.Grpc\bin\Debug\net5.0\MediatR.Contracts.dll

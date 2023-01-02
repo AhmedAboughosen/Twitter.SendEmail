@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1aMIarYln2278wxOiQbd16spETeXLX6WScLZqJ4oyGbLOHoGnTWYxWiUbpzhE6t0kK2ZrOKbCqq3wuOuaHXkXQ==",
+  "dgSpecHash": "vXHYCCrAFEayLDcHlQauY2Py95uVx0gto268S60XLn5qHHrEt2AI/+QezpropiTDTG7dOAF4qFlsnSfJyacNuQ==",
   "success": true,
   "projectFilePath": "D:\\codes\\Personal_Project\\twitter\\Twitter.SendEmail\\Web.Grpc\\Web.Grpc.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\a.hassan\\.nuget\\packages\\grpc.net.common\\2.34.0\\grpc.net.common.2.34.0.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\grpc.tools\\2.34.0\\grpc.tools.2.34.0.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\mailkit\\1.18.0\\mailkit.1.18.0.nupkg.sha512",
+    "C:\\Users\\a.hassan\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\a.hassan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",

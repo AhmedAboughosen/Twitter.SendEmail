@@ -1,4 +1,5 @@
-﻿using Infrastructure.Services.EmailSender;
+﻿using Infrastructure.Services;
+using Infrastructure.Services.EmailConfig;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -27,6 +28,7 @@ namespace Web.Grpc
 
             services.Configure<EmailConfiguration>(Configuration.GetSection("EmailConfiguration"));
             services.AddSingleton<EmailConfiguration>();
+
 
             services.AddEmailServicesRegistration(Configuration);
         }
