@@ -1,4 +1,5 @@
-﻿using Infrastructure.Services;
+﻿using Infrastructure.MessageBus;
+using Infrastructure.Services;
 using Infrastructure.Services.EmailConfig;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,6 +7,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Web.Grpc.ExceptionHandler;
+using Web.Grpc.Interceptors;
 using Web.Grpc.Services;
 
 namespace Web.Grpc
@@ -24,13 +27,23 @@ namespace Web.Grpc
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddGrpc();
+            services.AddGrpc(o =>
+            {
+                {
+                    o.Interceptors.Add<ThreadCultureInterceptor>();
+                    o.Interceptors.Add<ExceptionHandlingInterceptor>();
+                }
+            });
+
+            services.AddMessageBusRegistration(Configuration);
+            services.AddServicesRegistration(Configuration);
+
 
             services.Configure<EmailConfiguration>(Configuration.GetSection("EmailConfiguration"));
             services.AddSingleton<EmailConfiguration>();
 
 
-            services.AddEmailServicesRegistration(Configuration);
+            services.AddServicesRegistration(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

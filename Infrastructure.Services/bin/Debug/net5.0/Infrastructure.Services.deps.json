@@ -975,6 +975,9 @@
         }
       },
       "Core.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
         "runtime": {
           "Core.Domain.dll": {}
         }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KwC4zRBocC1NMFKPrCcSXkymjfPnCp9ywC2k34aQuSu2zclReMVyFLhWsa7p924Fms38ntKnC+sjIQUK+pomxA==",
+  "dgSpecHash": "r0rW/Sm/phyrLYoayWczRmZYj1+cWKHvLujfJOXLHk5i0Gj8BgUv8KYjfTiQXM9MeFdWzwfDh0tLgPjLDfbRTA==",
   "success": true,
   "projectFilePath": "D:\\codes\\Personal_Project\\twitter\\Twitter.SendEmail\\Core.Domain\\Core.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\a.hassan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PSbMwCcDaVf2k5LSxYzwHwXZjagiBZcwsGWln7H8rQumoHsa+hTDaPmzv+TbtDsy6bxavvp4h+4Qr11nc00nvQ==",
+  "dgSpecHash": "xwFFexhLQa8hWZesmlmB7QdK4PXcuUhmkriM77fonooKQMikXSV4He4zogLb0gDMC4lJ6rvta4TM9L2C3KZP/A==",
   "success": true,
   "projectFilePath": "D:\\codes\\Personal_Project\\twitter\\Twitter.SendEmail\\Infrastructure.MessageBus\\Infrastructure.MessageBus.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\a.hassan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\a.hassan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

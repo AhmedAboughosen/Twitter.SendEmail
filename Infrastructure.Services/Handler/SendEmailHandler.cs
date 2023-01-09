@@ -1,17 +1,19 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-
 using Core.Domain.Exceptions;
+using Core.Domain.Model.MessageBroker;
 using Infrastructure.Services.EmailConfig;
 using MailKit.Net.Smtp;
 using MediatR;
 using MimeKit;
+using MimeKit.Text;
 
 namespace Infrastructure.Services.Handler
 {
-    public class SendEmailHandler : IRequestHandler<Message, bool>
+    public class SendEmailHandler : IRequestHandler<MessageBody<EmailMessageModel>, bool>
     {
         private readonly EmailConfiguration _emailConfig;
 
@@ -21,16 +23,21 @@ namespace Infrastructure.Services.Handler
         }
 
 
-        public async Task<bool> Handle(Message message,
+        public async Task<bool> Handle(MessageBody<EmailMessageModel> request,
             CancellationToken cancellationToken)
         {
-            var emailMessage = CreateEmailMessage(message);
+            var emailMessage = CreateEmailMessage(new Message(request.Data.To.Select(o => o).ToList(), "",
+                new TextPart(TextFormat.Html)
+                {
+                    Text = string.Format(
+                        request.Data.Content)
+                }));
 
             await SendAsync(emailMessage);
             return true;
         }
-        
-  
+
+
         private MimeMessage CreateEmailMessage(Message message)
         {
             var emailMessage = new MimeMessage();
@@ -46,7 +53,6 @@ namespace Infrastructure.Services.Handler
 
         private async Task SendAsync(MimeMessage mailMessage)
         {
-
             using (var client = new SmtpClient())
             {
                 try
